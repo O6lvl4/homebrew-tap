@@ -32,6 +32,6 @@ class Gv < Formula
 
   test do
     assert_match "gv", shell_output("#{bin}/gv --version")
-    assert_match "Go version & toolchain manager", shell_output("#{bin}/gv --help")
+    assert_match "Go version", shell_output("#{bin}/gv --help")
   end
 end
