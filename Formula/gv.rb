@@ -5,23 +5,23 @@ class Gv < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/O6lvl4/gv/releases/download/v0.5.1/gv-v0.5.1-aarch64-apple-darwin.tar.gz"
-      sha256 "9b537934e6908074da68cdf64ca78f69686d50a3ed1f131c0a30f2a6ed43e765"
+      url "https://github.com/O6lvl4/gv/releases/download/v0.5.2/gv-v0.5.2-aarch64-apple-darwin.tar.gz"
+      sha256 "6498610b4f18186d16c08f563f19a9ed707148cbd9c970e799b574305991aae6"
     end
     on_intel do
-      url "https://github.com/O6lvl4/gv/releases/download/v0.5.1/gv-v0.5.1-x86_64-apple-darwin.tar.gz"
-      sha256 "80e3de1b049f63ae08024721152269d158ac4d1c4d9458fd080fa2cbb9dac3a3"
+      url "https://github.com/O6lvl4/gv/releases/download/v0.5.2/gv-v0.5.2-x86_64-apple-darwin.tar.gz"
+      sha256 "dad5daa1dfa2ea2ad77aa53c92eacf75634a6239cd2d6197601da66e455a2e5c"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/O6lvl4/gv/releases/download/v0.5.1/gv-v0.5.1-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "773849dec2f770df5d404707637dbd0082b6e80c0f8b0b91366c721eac2908ac"
+      url "https://github.com/O6lvl4/gv/releases/download/v0.5.2/gv-v0.5.2-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "6696018394be55985bd184c94ca7573e75f51c4681a4e46802775ef01082f288"
     end
     on_intel do
-      url "https://github.com/O6lvl4/gv/releases/download/v0.5.1/gv-v0.5.1-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "789d12032e0237f83150fc5420abefdf645ff418f206cfbefa37ace2912071cc"
+      url "https://github.com/O6lvl4/gv/releases/download/v0.5.2/gv-v0.5.2-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "5230d4df290b46e4fe62e594da7de0b18ed95c97fa243651b090239577bddd3f"
     end
   end
 
