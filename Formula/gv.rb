@@ -6,22 +6,22 @@ class Gv < Formula
   on_macos do
     on_arm do
       url "https://github.com/O6lvl4/gv/releases/download/v0.1.0/gv-v0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "6ac4bee2017d87aac2df547042fd6c3b8d0c18ab210e8d9fd793f52924668c9e"
+      sha256 "c08a05a24a9811743af79e46126e8ff7b93889a5dd026d4ca72ec23968209c8e"
     end
     on_intel do
       url "https://github.com/O6lvl4/gv/releases/download/v0.1.0/gv-v0.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "3b85d49193d558de546443599cee69536730610ac87ebeaaeb971bfd8e48c60d"
+      sha256 "906c6a5eaad280cd67f721db8f59ebab45754164276ee4ee4f6b9732c7297a7f"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/O6lvl4/gv/releases/download/v0.1.0/gv-v0.1.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "3cf6e4f5c3760bf8a0c245801c1027a25c63f390796f659dbb3fd580ab9da517"
+      sha256 "662f154f5641491baaebca3946cc3d0342a5de474dd11269cd812598f5e5ee8b"
     end
     on_intel do
       url "https://github.com/O6lvl4/gv/releases/download/v0.1.0/gv-v0.1.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "6ee2f76bcaed90e599c75c1d7694fb2cb0fe00c18afef11d73998c3d6a3b717d"
+      sha256 "4aec6c2e3e55d0fa1074c28c2c2e787bace6b39c33609db7185544d79af6525e"
     end
   end
 
