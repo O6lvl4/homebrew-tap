@@ -8,22 +8,22 @@ class Rv < Formula
   on_macos do
     on_arm do
       url "https://github.com/O6lvl4/rv/releases/download/v0.2.0/rv-v0.2.0-aarch64-apple-darwin.tar.gz"
-      sha256 "2454e23113f2b3a1c8e6f2aa2602dff68ce32cbe9801f91dce67e037f46281de"
+      sha256 "76c8bc1943b4edbd8f8579e1b64b3d957d1d885224bf1bd94a18b600ae56da21"
     end
     on_intel do
       url "https://github.com/O6lvl4/rv/releases/download/v0.2.0/rv-v0.2.0-x86_64-apple-darwin.tar.gz"
-      sha256 "57bfd208cb722bbb3904ba0491387699d06defdfe44bbc84e4acaec2320ab4e3"
+      sha256 "e5b990b9529ac8a3b010b8c22953eb0e79eff7a98f216325562182b2d4176d80"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/O6lvl4/rv/releases/download/v0.2.0/rv-v0.2.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "ebb2df64de6a6c49c4dbe3e1d9f8157baf80c47b98eff0786c3b501e6aa3c958"
+      sha256 "f3c4ab6d4b2b1e05bdd8bb29d69fe49f0563715bb984589ab3df14849536b5b4"
     end
     on_intel do
       url "https://github.com/O6lvl4/rv/releases/download/v0.2.0/rv-v0.2.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "3c03bf55c64d8e9ab9404e5fb57ed2ab9a025018c542673fbe2a6e7a64da88c3"
+      sha256 "bcd2efd34a02221f27ffce97080612fd9d7bd373e03b415736d61224b0005b7e"
     end
   end
 
