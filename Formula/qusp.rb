@@ -5,23 +5,23 @@ class Qusp < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/O6lvl4/qusp/releases/download/v0.28.2/qusp-v0.28.2-aarch64-apple-darwin.tar.gz"
-      sha256 "f5f1a6c93795f3db1c763d233f9608a1299787eccc1ada9a097113b2fa732939"
+      url "https://github.com/O6lvl4/qusp/releases/download/v0.28.3/qusp-v0.28.3-aarch64-apple-darwin.tar.gz"
+      sha256 "8297be30ff798cc46135914bfadda9029ea0656247f9552128b4153741493a79"
     end
     on_intel do
-      url "https://github.com/O6lvl4/qusp/releases/download/v0.28.2/qusp-v0.28.2-x86_64-apple-darwin.tar.gz"
-      sha256 "bad0a033ffdb045bc36541df2ee901d296a657f95922d159a2fc0cb06d9bbab5"
+      url "https://github.com/O6lvl4/qusp/releases/download/v0.28.3/qusp-v0.28.3-x86_64-apple-darwin.tar.gz"
+      sha256 "5d3c2164c6b8a7064f5d76c33f35879a4697a7cf2dc0120ecbd37b5c0139d329"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/O6lvl4/qusp/releases/download/v0.28.2/qusp-v0.28.2-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "f4f489e3bfc6dbbdfff3e81f4977454b7c1807e2c402c86e1b411cec8c49f015"
+      url "https://github.com/O6lvl4/qusp/releases/download/v0.28.3/qusp-v0.28.3-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "99fdbec0cede921187a3615cd5d84be74b875f27ef04fdcb1cedab4a969673f6"
     end
     on_intel do
-      url "https://github.com/O6lvl4/qusp/releases/download/v0.28.2/qusp-v0.28.2-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "9f178a51f41e4df735f3c681c371f7b6afadf7daaddfd4108bb18ba54cca46aa"
+      url "https://github.com/O6lvl4/qusp/releases/download/v0.28.3/qusp-v0.28.3-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "5ad1b3719b7834bedfbff0d994b4862bf0eed2753808d139bae6e2f7044541d1"
     end
   end
 
