@@ -20,6 +20,7 @@ brew install O6lvl4/tap/gv
 | Formula | Description | Source |
 |--------|-------------|--------|
 | [gv](Formula/gv.rb) | Go version & toolchain manager. uv-grade speed. | [O6lvl4/gv](https://github.com/O6lvl4/gv) |
+| [codopsy](Formula/codopsy.rb) | AST-level code quality analyzer for 34 languages. | [O6lvl4/codopsy](https://github.com/O6lvl4/codopsy) |
 
 ## Updating formulae
 
